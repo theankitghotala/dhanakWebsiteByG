@@ -1,25 +1,23 @@
 <template>
   <navbar />
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <BoxCard />
+  <div>
+    
+    <clickableButton />
+  <div class="events">
+    <BoxCard /> <BoxCard /> <BoxCard />
+  </div>
+  </div>
+  
+  
 </template>
 
 <script setup>
   import BoxCard from './components/BoxCard.vue'
   import navbar from './components/navbar.vue'
+  import clickableButton from './components/clickableButton.vue'
+
 </script>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
 <style>
 #app {
@@ -31,5 +29,11 @@ export default {
   text-align: center;
   background-color: rgb(234, 109, 20);
   color: #2c3e50;
+}
+.events{
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  margin: 20px;
 }
 </style>
