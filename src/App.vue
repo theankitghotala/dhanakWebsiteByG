@@ -1,7 +1,7 @@
 <template>
   <navbar />
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js Application"/>
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
   <BoxCard />
 </template>
 
