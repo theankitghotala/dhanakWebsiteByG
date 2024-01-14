@@ -1,5 +1,6 @@
 <template>
   <navbar />
+  <br>
   <div>
     <clickableButton />
   <div class="events">
@@ -14,7 +15,6 @@
   import BoxCard from './components/BoxCard.vue'
   import navbar from './components/navbar.vue'
   import clickableButton from './components/clickableButton.vue'
-
 </script>
 
 
