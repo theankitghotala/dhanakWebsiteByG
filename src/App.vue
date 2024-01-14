@@ -1,10 +1,9 @@
 <template>
   <navbar />
   <div>
-    
     <clickableButton />
   <div class="events">
-    <BoxCard /> <BoxCard /> <BoxCard />
+    <BoxCard /> <BoxCard /> <BoxCard /> 
   </div>
   </div>
   
