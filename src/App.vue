@@ -1,6 +1,6 @@
 <template>
   <navbar />
-  <br>
+  <br> <br> <br>
   <div>
     <eventsButton />
     <div class="events">
@@ -28,14 +28,15 @@
 
 <style>
 #app {
-  scroll-behavior: smooth;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(234, 109, 20);
+  /* background-color: rgb(0, 119, 179); */
+  background-image: url(./components/assets/5.jpg);
+  background-size: cover;
   color: #2c3e50;
 }
 .events{
