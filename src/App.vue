@@ -34,9 +34,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* background-color: rgb(0, 119, 179); */
-  background-image: url(./components/assets/5.jpg);
-  background-size: cover;
+  /* background-color: #F1CCD7; */
+  background-image: url(./components/assets/blob-scene-haikei.svg);
+  
+  background-size:cover;
   color: #2c3e50;
 }
 .events{

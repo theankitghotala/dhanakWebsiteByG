@@ -87,7 +87,7 @@
     color: #EC9420;
   }
 
-  .myClickableHeading{
+  #myClickableHeading{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +97,7 @@
     cursor: default;
   }
 
-  .myClickableHeading:hover {
+  #myClickableHeading:hover {
         cursor: pointer; 
       }
   
