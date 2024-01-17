@@ -1,6 +1,6 @@
 <template>
     <div style="border-radius: 10px; " class="max-w-sm rounded overflow-hidden shadow-lg">
-  <img class="w-full" src="https://buffer.com/library/content/images/2023/09/instagram-image-size.jpg" alt="Sunset in the mountains">
+  <img class="w-full" src="./assets/IMG_20230316_210509633~3.jpg" alt="Sunset in the mountains">
   <div style="background-color: aliceblue; " class="px-6 py-4">
     <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
     <p class="text-gray-700 text-base">

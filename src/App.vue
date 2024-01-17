@@ -4,13 +4,13 @@
   <div>
     <eventsButton />
     <div class="events">
-      <BoxCard /> <BoxCard /> <BoxCard /> 
+      <BoxCard1 /> <BoxCard2 /> <BoxCard3 /> 
     </div>
   </div>
   <div>
     <sponsorsButton />
     <div class="events">
-      <BoxCard /> <BoxCard /> <BoxCard /> 
+      <BoxCard4 /> <BoxCard5 />  
     </div>
   </div>
   
@@ -18,7 +18,11 @@
 </template>
 
 <script setup>
-  import BoxCard from './components/BoxCard.vue'
+  import BoxCard1 from './components/BoxCard1.vue'
+  import BoxCard2 from './components/BoxCard2.vue'
+  import BoxCard3 from './components/BoxCard3.vue'
+  import BoxCard4 from './components/BoxCard4.vue'
+  import BoxCard5 from './components/BoxCard5.vue'
   import navbar from './components/navbar.vue'
   import eventsButton from './components/eventsButton.vue'
   import sponsorsButton from './components/sponsorsButton.vue'

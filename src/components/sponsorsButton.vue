@@ -1,5 +1,5 @@
 <template>
-    <a href="#sponsers"><button id="sponsers" class="bn632-hover bn25">Sponsers</button></a>
+    <a href="#sponsers"><button id="sponsers" class="bn632-hover bn25">Mentors</button></a>
 </template>
 
 <script>
