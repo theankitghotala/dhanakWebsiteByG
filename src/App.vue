@@ -35,7 +35,7 @@
   align-items: center;
   text-align: center;
   /* background-color: #F1CCD7; */
-  background-image: url(./components/assets/blob-scene-haikei.svg);
+  background-image: url(./components/assets/5.jpg);
   
   background-size:cover;
   color: #2c3e50;

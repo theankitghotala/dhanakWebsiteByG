@@ -5,18 +5,17 @@
     </div>
   </div>
     <nav class="navbar">
-      
-      <div class="navbar-left">
-        <a href="#events">Events</a>
-      <a href="#sponsors">Sponsors</a>
+        <div class="navbar-left">
+          <a href="#events">Events</a>
+        <a href="#sponsors">Sponsors</a>
+          
+        </div>
         
+        
+      <div class="navbar-right">
+        <a href="#signup">Sign Up</a>
+          <a href="#login">Log In</a>
       </div>
-      
-      
-    <div class="navbar-right">
-      <a href="#signup">Sign Up</a>
-        <a href="#login">Log In</a>
-    </div>
   </nav>
 </template>
 
@@ -33,6 +32,12 @@
 
 
 <style scoped>
+.main{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
     .logo{
       z-index: 1;
       display: flex;
@@ -43,29 +48,30 @@
       position: relative;
       z-index: 1;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-items: center;
-    height: 70px;
-    padding-top: 30px ;
-    /* background-color: rgba(255, 255, 255, 0.185); */
+    height: 15vh;
+    /* backgroun-color: rgba(255, 255, 255, 0.185); */
     
     /* background-image: url(./assets/5.jpg); */
     /* background-size: cover; */
     /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); */
   }
   .navbar-left{
+    height: 50%;
+    padding: 0px;
+    margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
   }
   .navbar-right{
+    height: 50%;
+    padding: 0px;
+    margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-  
-
   }
   
   .navbar h1 {
@@ -78,7 +84,7 @@
     color: #DC3C34;
     text-decoration: none;
     margin:60px;
-    font-size: 18px;
+    font-size: 3vh;
     transition: color 0.3s ease;
     font-weight: bold;
   }
