@@ -2,7 +2,7 @@
     <div style="border-radius: 10px; " class="max-w-sm rounded overflow-hidden shadow-lg">
   <img class="w-full" src="./assets/IMG_20230317_185245889~4.jpg" alt="Sunset in the mountains">
   <div style="background-color: aliceblue; " class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <div class="font-bold text-xl mb-2">Dhanak 2023 Stage</div>
     <p class="text-gray-700 text-base">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
     </p>
